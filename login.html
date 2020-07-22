@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/b.png" type="image/gif" sizes="16x16">
+
+</head>
+
+<body>
+    je suis un <span class="pro">Pro</span>grammeur
+    <hr>
+    <h2 id="rose">Test2</h2>
+
+    <div class="border">
+        <h3 class="title">Se connecter</h3>
+        <div class="center">
+            <label for="" class="bleu">Email: </label> <input type="email" class="input center" id="email">
+        </div>
+
+        <p> <label for="" class="bleu">Mot de passe: </label> <input type="password" class="input" id="pwd"></p>
+
+        <div class="center">
+            <button class="button" onclick="test()">Se connecter</button>
+        </div>
+
+        <div class="center">
+            <a href="https://www.facebook.com/">facebook</a>
+        </div>
+        <a href="https://www.facebook.com"></a>
+    </div>
+</body>
+
+<script>
+    function test() {
+        var email = document.getElementById('email').value;
+        alert(email);
+    }
+</script>
+
+</html>

@@ -1,0 +1,51 @@
+
+.border {
+    border: black;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: rgb(197, 195, 191);
+}
+
+.title {
+    text-align: center;
+    color: red;
+    font-size: 30px;
+}
+
+.bleu {
+    color: blue;
+    margin-left: 50px;
+}
+
+.input {
+    width: 300px;
+}
+
+.center {
+    text-align: center;
+    margin: 50px;
+}
+
+.button {
+    color: blue;
+    background-color: orange;
+    font-size: 20px;
+    border-radius: 10px;
+    border-style: solid;
+    border: black;
+}
+
+#rose {
+    color: rosybrown;
+}
+
+p {
+    font-size: 18px;
+}
+
+
+.pro {
+    font-size: 40px;
+    color: red;
+    font-family: 'Indie Flower', cursive;
+}
